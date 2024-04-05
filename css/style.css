@@ -1,0 +1,187 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color:#444;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.logo img{
+    width: 211px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in button {
+    border: none;
+}
+
+input [type="text"], [type = "email"], [type = "password"]{
+    width: 180px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+section {
+    padding: 3rem 0 4rem 0;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h1.title {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gray {
+    background-color: #fdf5e6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.intro p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.intro cta {
+    margin: 2rem 0;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.primary {
+    background-color: rgb(212, 156, 81);
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: #444;
+}
+
+.Cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 18%;
+    height: 150px;
+
+    border-radius: 15px;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.Card.red {
+    background-color: #ec454e;
+}
+
+.Card.blue {
+    background-color: #42b0f8;
+}
+
+.Card.purple {
+    background-color: #9e69d5;
+}
+
+.Card.yellow {
+    background-color: #f4a823;
+}
+
+.Card.green {
+    background-color: #3cbfa1;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #3788bf;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 5rem;
+    list-style-type: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer p.copyright {
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+}
