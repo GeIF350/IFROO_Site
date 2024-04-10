@@ -43,7 +43,7 @@ body {
 	}
 }
 
-header {
+header div {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
@@ -139,10 +139,10 @@ h1.title {
     justify-content: center;
     text-align: center;
 
-    width: 400px;
-    height: 150px;
+    width: 230px;
+    height: 230px;
 
-    border-radius: 15px;
+    border-radius: 40px;
     color: white;
     font-size: 1.7rem;
 }
