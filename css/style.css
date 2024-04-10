@@ -25,7 +25,8 @@
 }
 
 body {
-	background: linear-gradient(-45deg, #0bd236, #f5fffd, #0bd29a, #42a0f8);
+    font-family: "Roboto", sans-serif;
+	background: linear-gradient(-45deg, #83f59b, #ffffff, #7effdb, #42f8a3);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -85,7 +86,7 @@ h1.title {
 }
 
 .gray {
-    background-color: #fdf5e6;
+    background-color: #f5f5f5;
 }
 
 .container {
@@ -194,8 +195,8 @@ footer a {
     color: white;
 }
 
-footer p.copyright {
-    padding: 3rem 0;
+footer p {
+    padding: 2rem 2rem;
     color: white;
     text-align: center;
 }
