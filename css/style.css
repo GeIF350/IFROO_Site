@@ -131,8 +131,7 @@ h1.title {
 
 .Cards {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .Card {
@@ -146,7 +145,7 @@ h1.title {
 
     border-radius: 40px;
     color: rgb(255, 255, 255);
-    font-size: 1.7rem;
+    font-size: 5rem;
 }
 
 .Card.red {
