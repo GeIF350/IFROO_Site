@@ -132,6 +132,7 @@ h1.title {
 .Cards {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .Card {
@@ -144,28 +145,36 @@ h1.title {
     height: 230px;
 
     border-radius: 40px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.7rem;
 }
 
 .Card.red {
-    background-color: #ec454e;
+    background-color: #289675;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card.red:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .Card.blue {
-    background-color: #42b0f8;
+    background-color: #369b4f;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.Card.purple {
-    background-color: #9e69d5;
+.Card.blue:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .Card.yellow {
-    background-color: #f4a823;
+    background-color: #fff7e7;
+    color: black;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.Card.green {
-    background-color: #3cbfa1;
+.Card.yellow:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .members {
@@ -180,7 +189,7 @@ h1.title {
 }
 
 footer {
-    background-color: #3788bf;
+    background-color: #6bb697;
 }
 
 footer ul {
