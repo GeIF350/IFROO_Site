@@ -1,0 +1,1 @@
+Site direcionado para identificação do corpo docente e do Curso Técnico em Informática Integrado ao Ensino Médio do campus IFMT Rondonópolis, desenvolvido pelas alunas do 2º ano do Curso Técnico em Informática/2024.
