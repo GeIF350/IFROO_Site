@@ -205,16 +205,16 @@ footer ul {
     list-style-type: none;
 }
 
-footer a {
-    color: white;
+footer span {
+    color: #ffffff;
 }
 
 footer p {
     padding: 2rem 2rem;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
-svg {
+footer svg {
     color: #ffffff;
 }
